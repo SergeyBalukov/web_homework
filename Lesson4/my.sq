@@ -22,4 +22,4 @@ INSERT INTO groupmates VALUES (6, 'Дуняша', '18', 'Сызрань');
 INSERT INTO groupmates VALUES (7, 'Ибрагим', '20', 'Москва');
 
 -- fetch 
-SELECT name FROM groupmates WHERE address = 'Москва' AND age>18;
+SELECT name FROM groupmates WHERE address = 'Москва' AND age>=18 AND age <30;;
